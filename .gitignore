@@ -1,9 +1,74 @@
+# Build directories
+build/
+build_with_docker/
+example/*/build/
+example/*/*/build/
 
-!bin/test.conf
-.idea
-bin
-cmake-build-debug
-lib
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-*.out
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
 *.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Protobuf generated files (keep only the source .proto files)
+# *.pb.cc
+# *.pb.h
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Docker
+.dockerignore
+
+# Downloaded protobuf
+protobuf-3.12.4/
+protobuf-cpp-3.12.4.tar.gz
+
+# Scripts
+fix_protobuf.sh
+build_with_docker.sh
