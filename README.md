@@ -93,7 +93,6 @@ make
 
 ![](docs/images/rpc1.jpg)
 
-
 換一個窗口，在執行 consumer 
 
 ```
@@ -103,7 +102,6 @@ make
 ![](docs/images/rpc2.jpg)
 
 運行即可，注意先運行provider，再運行consumer，原因很簡單：需要先提供rpc服務，才能去調用。
-
 
 #### 使用raft集群
 之後在目錄bin就有對應的可執行文件生成，
@@ -145,13 +143,6 @@ make
 
 #### 使用kv
 在啟動raft集群之後啟動`callerMain`即可。
-
-
-## Docs
-- 如果你想創建自己的rpc，請參考example中rpc的md文件和friendRPC相關代碼.此外可以見rpc分支
-- 各個文件夾文件內容說明：[這裡](./docs/目錄導覽.md)
-> notice:在代碼編寫過程中可能有一些bug改進，其他分支可能並沒有修復這些bug以及相應的改進。注意甄別
->同時歡迎issue提出這些bug或者pr改進。
 
 ## todoList
 
