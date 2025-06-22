@@ -152,19 +152,5 @@ make
 - [x] code format
 - [ ] 代碼解讀 maybe
 
-## 貢獻者列表
-
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
-
-## Star History
-
-<a href="https://star-history.com/#youngyangyang04/KVstorageBaseRaft-cpp&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=youngyangyang04/KVstorageBaseRaft-cpp&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=youngyangyang04/KVstorageBaseRaft-cpp&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=youngyangyang04/KVstorageBaseRaft-cpp&type=Date" />
-  </picture>
-</a>
 
 
